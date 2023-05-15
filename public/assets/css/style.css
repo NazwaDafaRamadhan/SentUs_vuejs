@@ -1,0 +1,25 @@
+img {
+position: none;
+height: auto;
+width: 200px;
+left: 117px;
+top: 12px;
+border-radius: 0px;
+margin-left: 80px;
+}
+
+.navbar-nav a {
+margin-right: 45px;
+font-family: 'poppins', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 45px;
+color: #00337C;
+}
+
+.navbar-custom {
+    height: 55px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  
