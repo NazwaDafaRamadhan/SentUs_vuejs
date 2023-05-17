@@ -11,8 +11,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                    <li class="nav-item active"><a class="nav-link me-lg-3" href="#header">Home</a></li>
+
                     <li class="nav-item"><a class="nav-link me-lg-3" href="#about">Tentang Kami</a></li>
-                    <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Hubungi Kami</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#contact">Hubungi Kami</a></li>
                 </ul>
                 <button class="btn btn-primary px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
                     <span class="d-flex align-items-center">
@@ -23,7 +25,7 @@
         </div>
     </nav>
 
-    <header class="masthead">
+    <header class="masthead" id="header">
         <div class="container px-2">
             <div class="row gx-5 align-items-center">
                 <div class="col-sm-6">
@@ -124,7 +126,7 @@
         </div>
     </aside>
 
-    <section id="features">
+    <section id="about">
         <div class="container px-2">
             <div class="row gx-5 align-items-center">
                 <div class="col-sm-6">
@@ -147,7 +149,7 @@
         </div>
     </section>
 
-    <section class="bg-gradient-primary-to-secondary" id="download">
+    <section class="bg-gradient-primary-to-secondary" id="contact">
         <div class="container px-5">
             <div class="row">
                 <div class="col-sm-6">
