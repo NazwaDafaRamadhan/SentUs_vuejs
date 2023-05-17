@@ -11,7 +11,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                    <li class="nav-item"><a class="nav-link me-lg-3" href="#layanan">Layanan</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#about">Tentang Kami</a></li>
                     <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Hubungi Kami</a></li>
                 </ul>
                 <button class="btn btn-primary px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
@@ -46,7 +46,7 @@
         </div>
     </header>
 
-    <aside class="text-center">
+    <aside class="text-center" id="#layanan">
         <div class="container">
             <div class="row">
                 <h1 class="txt-section2">Mengapa harus bergabung dengan kami?</h1>
@@ -114,7 +114,7 @@
                         </div>
 
                     </div>
-                </div>  
+                </div>
 
 
 
@@ -122,6 +122,18 @@
 
         </div>
     </aside>
+
+    <section id="features">
+        <div class="container px-5">
+            <div class="row">
+                <div class="">
+                    
+                </div>
+            </div>
+
+
+        </div>
+    </section>
 </template>
 
 <style scoped>
