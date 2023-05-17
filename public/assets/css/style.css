@@ -66,14 +66,29 @@ aside {
   background-color: #ECF2FF;
 }
 
+@media (max-width: 991.98px) {
+  .container-card .card{
+    text-align: center;
+    height: 100px;
+    width: 300px;
+  }
+  .col-sm-4{
+    text-align: center;
+    justify-content: center;
+  }
+}
+
 .card {
   height: 250px !important;
   border-radius: 1rem !important;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
 }
 .card-body{
   justify-content: center !important;
   border-radius: 1rem !important;
-
+  display: flex;
 }
 
 .advantage{

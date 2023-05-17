@@ -51,7 +51,8 @@
             <div class="row">
                 <h1 class="txt-section2">Mengapa harus bergabung dengan kami?</h1>
             </div>
-            <div class="row mt-5">
+            <div class="row mt-5 container-card">
+
                 <div class="col-sm-4">
                     <div class="card">
                         <div class="card-body shadow">
@@ -127,7 +128,7 @@
         <div class="container px-5">
             <div class="row">
                 <div class="">
-                    
+
                 </div>
             </div>
 
