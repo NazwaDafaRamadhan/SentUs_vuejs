@@ -1,11 +1,14 @@
+body{
+  font-family: "Nunito", sans-serif !important;
+}
+
 img {
 position: none;
 height: auto;
-width: 200px;
+width: 150px;
 left: 117px;
 top: 12px;
 border-radius: 0px;
-margin-left: 80px;
 }
 
 .navbar-nav a {
@@ -19,7 +22,73 @@ color: #00337C;
 }
 
 .navbar-custom {
-    height: 55px;
+    height: 25px;
     background-color: rgba(255, 255, 255, 1);
   }
   
+
+.img-header {
+  padding: 0 !important;
+}
+.header-lp {
+  height: 250px !important;
+  width: auto !important;
+  position: relative;
+}
+
+.header-text {
+  font-family: "Nunito", sans-serif !important;
+  color: white;
+}
+
+.btn-header {
+  color: #00337C;
+  background-color: white;
+  border: 2px solid #00337C;
+  padding: 10px;
+  border-radius: 1rem !important;
+  font-weight: 700;
+}
+
+.btn-header:hover{
+  color: white;
+  background-color: #00337C;
+}
+
+.txt-section2{
+  color: #00337C;
+  font-family: "Nunito", sans-serif !important;
+
+}
+
+aside {
+  background-color: #ECF2FF;
+}
+
+.card {
+  height: 250px !important;
+  border-radius: 1rem !important;
+}
+.card-body{
+  justify-content: center !important;
+  border-radius: 1rem !important;
+
+}
+
+.advantage{
+  margin-top: 500px;
+}
+.card:hover{
+  box-shadow: 7px 7px 5px #00347c5b;
+}
+.img-card-inside{
+  height: 75px;
+  width: auto;
+}
+
+.txt-card-inside{
+  color: #00337C;
+  font-weight: bold;
+  font-size: 27px;
+  margin-bottom: 0 !important;
+}
