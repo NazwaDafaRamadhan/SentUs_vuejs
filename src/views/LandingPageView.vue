@@ -18,7 +18,7 @@
                 </ul>
                 <button class="btn btn-primary px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
                     <span class="d-flex align-items-center">
-                        <span class="small">Masuk</span>
+                        <span class="small">Bergabung Sekarang!</span>
                     </span>
                 </button>
             </div>
