@@ -2,7 +2,9 @@ body{
   font-family: "Nunito", sans-serif !important;
   scroll-behavior: smooth !important;
 }
-
+ p{
+  font-size: 16px !important;
+ }
 img {
 position: none;
 height: auto;
@@ -37,10 +39,25 @@ color: #00337C;
   position: relative;
 }
 
+.footer-lp {
+  height: 250px !important;
+  width: auto !important;
+  position: relative;
+}
+
 .header-text {
   font-family: "Nunito", sans-serif !important;
   color: white;
+  font-size: 16px;
 }
+
+.footer-text {
+  font-family: "Nunito", sans-serif !important;
+  color: #00337C;
+  font-size: 16px;
+
+}
+
 
 .btn-header {
   color: #00337C;
@@ -54,6 +71,21 @@ color: #00337C;
 .btn-header:hover{
   color: white;
   background-color: #00337C;
+}
+
+.btn-footer {
+  color: white;
+  background-color: #00337C;
+  border: none ;
+  padding: 10px;
+  border-radius: 1rem !important;
+  font-weight: 700;
+}
+
+.btn-footer:hover{
+  color: #00337C;
+  background-color: white;
+  border: 2px solid #00337C;
 }
 
 .txt-section2{

@@ -129,23 +129,26 @@
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-6">
                     <!-- Mashead text and app badges-->
+                    <img class="header-lp" src="/assets/img/footer-lp.png">
+                    
+                </div>
+                <div class="col-lg-6 img-header">
+                    <!-- Masthead device mockup feature-->
                     <div class="mb-5 mb-lg-0 text-center text-lg-start">
-                        <h1 class="header-text lh-1 mb-3">Welcome to SentUs!</h1>
-                        <p class="header-text mb-5">Website Layanan Percetakan untuk Efisiensi Anda</p>
+                        <h1 class="footer-text lh-1 mb-3">#mudahcepatSentUs</h1>
+                        <p class="footer-text mb-5"><b>SentUs</b> merupakan sebuah platform bagi para pengguna yang ingin mencetak dokumen mereka dengan cepat dan efisien.</p>
                         <div class="d-grid gap-2 col-6  flex-column flex-lg-row align-items-center">
-                            <button class="btn-header">
+                            <button class="btn-footer">
                                 Gabung Sekarang!
                             </button>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 img-header">
-                    <!-- Masthead device mockup feature-->
-                    <img class="header-lp" src="/assets/img/header-lp.png">
-                </div>
             </div>
         </div>
     </section>
+
+    
 </template>
 
 <style scoped>
