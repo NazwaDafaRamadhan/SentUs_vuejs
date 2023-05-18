@@ -38,7 +38,7 @@ Login
 
 <style scoped>
 
-.body{
+body{
   font-family: "Nunito" !important;
   scroll-behavior: smooth !important;
   background-color: #005c97 !important;

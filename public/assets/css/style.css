@@ -1,10 +1,7 @@
 body{
   font-family: "Nunito", sans-serif !important;
   scroll-behavior: smooth !important;
-  background-color: #005c97 !important;
-  background-color: -webkit-linear-gradient(to right, #005c97, #363795) !important;
-  background-color: linear-gradient(to right, #005c97, #363795) !important;
-
+  background-color: white;
 }
  p{
   font-size: 16px !important;
