@@ -16,11 +16,11 @@
                     <li class="nav-item"><a class="nav-link me-lg-3" href="#about">Tentang Kami</a></li>
                     <li class="nav-item"><a class="nav-link me-lg-3" href="#contact">Hubungi Kami</a></li>
                 </ul>
-                <button class="btn btn-primary px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
-                    <span class="d-flex align-items-center">
-                        <span class="small">Bergabung Sekarang!</span>
-                    </span>
-                </button>
+
+                <router-link to="/login" tag="button" class="btn btn-primary px-3 mb-2 mb-lg-0">
+                    Bergabung Sekarang!
+                </router-link>
+                
             </div>
         </div>
     </nav>
@@ -34,9 +34,9 @@
                         <h1 class="header-text lh-1 mb-3">Welcome to SentUs!</h1>
                         <p class="header-text mb-5">Website Layanan Percetakan untuk Efisiensi Anda</p>
                         <div class="d-grid gap-2 col-6  flex-column flex-lg-row align-items-center">
-                            <button class="btn-header">
-                                Gabung Sekarang!
-                            </button>
+                            <router-link to="/login" tag="button" class="btn-header">
+                    Bergabung Sekarang!
+                </router-link>
                         </div>
                     </div>
                 </div>
@@ -139,9 +139,10 @@
                         <p class="footer-text mb-5"><b>SentUs</b> merupakan sebuah platform bagi para pengguna yang ingin
                             mencetak dokumen mereka dengan cepat dan efisien.</p>
                         <div class="d-grid gap-2 col-6  flex-column flex-lg-row align-items-center">
-                            <button class="btn-footer">
-                                Gabung Sekarang!
-                            </button>
+
+                            <router-link to="/login" tag="button" class="btn-footer">
+                    Bergabung Sekarang!
+                </router-link>
                         </div>
                     </div>
                 </div>
@@ -310,6 +311,10 @@ hr {
     border: 0;
     border-top: 1px solid;
     opacity: 0.25;
+}
+
+#about{
+    background-color: white !important;
 }
 
 h6,
