@@ -70,7 +70,7 @@ label {
 .btn-login {
  color: white;
  background-color: #00337C;
- border-radius: 1rem;
+ border-radius: 10px ;
  border: none;
  padding: 7px 0px !important;
  margin-top: 1rem;
