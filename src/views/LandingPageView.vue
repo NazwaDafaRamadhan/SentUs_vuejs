@@ -312,9 +312,9 @@ hr {
     opacity: 0.25;
 }
 
-#about{
+/* #about{
     background-color: white !important;
-}
+} */
 
 h6,
 .h6,
@@ -4275,7 +4275,7 @@ fieldset:disabled .btn {
     --bs-nav-link-padding-y: 0.5rem;
     --bs-nav-link-font-weight: ;
     --bs-nav-link-color: var(--bs-link-color);
-    --bs-nav-link-hover-color: var(--bs-link-hover-color);
+    --bs-nav-link-hover-color: #00337C;
     --bs-nav-link-disabled-color: #6c757d;
     display: flex;
     flex-wrap: wrap;
@@ -4302,7 +4302,7 @@ fieldset:disabled .btn {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: var(--bs-nav-link-hover-color);
+    color: #00337C;
 }
 
 .nav-link.disabled {
@@ -12815,19 +12815,15 @@ section {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #6c757d;
+    color: #00337C;
+    font-weight: bold;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
     color: #2937f0;
 }
 
-/*!
- * html5-device-mockups (https://github.com/pixelsign/html5-device-mockups)
- * Copyright 2013 - 2017 pixelsign
- * Licensed under MIT (https://github.com/pixelsign/html5-device-mockups/blob/master/LICENSE.txt)
- * Last Build: Tue Nov 14 2017 12:40:57
- */
+
 .device-wrapper {
     max-width: 300px;
     width: 100%;

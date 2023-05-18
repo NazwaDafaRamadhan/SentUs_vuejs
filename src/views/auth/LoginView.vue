@@ -37,14 +37,14 @@ Login
 </template>
 
 <style scoped>
-
-body{
+.main{
   font-family: "Nunito" !important;
   scroll-behavior: smooth !important;
   background-color: #005c97 !important;
     background-color: -webkit-linear-gradient(to right, #005c97, #363795) !important;
     background-color: linear-gradient(to right, #005c97, #363795) !important;
-
+  width: auto;
+  height: 100vh;
 }
 
 label {
