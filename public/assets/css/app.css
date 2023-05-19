@@ -708,11 +708,29 @@ h6 {
  border-radius: 10px;
 }
 
+
+.sidebar-nav .nav-link2 {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  transition: 0.3;
+  background: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+ }
+
 .sidebar-nav .nav-link i {
  font-size: 16px;
  margin-right: 10px;
  color: #00337C;
 }
+.sidebar-nav .nav-link2 i {
+  font-size: 16px;
+  margin-right: 10px;
+  color: #00337C;
+ }
 
 .sidebar-nav .nav-link.collapsed {
  color: #00337C;
@@ -727,6 +745,11 @@ h6 {
  color: #2B93FF;
  background: #f6f9ff;
 }
+
+.sidebar-nav .nav-link2:hover {
+  color: red;
+  background: #f6f9ff;
+ }
 
 .sidebar-nav .nav-link:hover i {
  color: #2B93FF;
