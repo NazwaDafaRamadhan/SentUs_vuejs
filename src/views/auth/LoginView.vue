@@ -20,9 +20,7 @@
        
          
           <div class="d-grid gap-2">
-           <button class="btn-login">
-Login
-           </button>
+           <router-link to="/dashboard" tag="button" class="btn-login">Login</router-link>
 
           </div>
         </form>

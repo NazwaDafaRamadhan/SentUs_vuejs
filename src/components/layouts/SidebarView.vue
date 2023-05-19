@@ -32,7 +32,7 @@
        </a>
      </li><!-- End Components Nav -->
      <li class="nav-item">
-       <a class="nav-link"  href="#">
+       <a class="nav-link"  href="/login">
          <i class="bi bi-menu-button-wide"></i><span>Logout</span><i class="bi bi-chevron-down ms-auto"></i>
        </a>
      </li><!-- End Components Nav -->
